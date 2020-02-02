@@ -1,7 +1,7 @@
 const Discord =require('discord.js');
 const bot =new Discord.Client();
 
-const token= 'NjczNTUyMzk0ODA5OTAxMDg2.Xjbssg.cL2pzw_c9L4ws0fS_uxN6tshOXw'
+const token= 'NjczNTUyMzk0ODA5OTAxMDg2.XjcLCA.wDDjWId819KsPWqEdSMkbpdK4cE'
 bot.on('ready',()=>{
     console.log('this bot is online');
 })
@@ -11,8 +11,6 @@ bot.on('message',msg=>{
        msg.reply('HELLO ELLU!');
    }
 })
-  
-
 
 bot.login(token);
 
